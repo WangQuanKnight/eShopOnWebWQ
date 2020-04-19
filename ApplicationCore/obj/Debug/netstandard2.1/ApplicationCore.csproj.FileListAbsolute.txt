@@ -1,0 +1,9 @@
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.deps.json
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.dll
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.pdb
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfo.cs
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.dll
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.pdb
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\WQ\source\repos\eShopOnWebWQ\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.csproj.CoreCompileInputs.cache
