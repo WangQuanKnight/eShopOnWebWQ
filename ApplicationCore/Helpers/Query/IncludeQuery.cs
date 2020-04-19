@@ -6,7 +6,7 @@ using ApplicationCore.Interface;
 
 namespace ApplicationCore.Helpers.Query
 {
-    public class IncludeQuery : IIncludeQuery
+    public class IncludeQuery<TEntity,TPreviousProperty> : IIncludeQuery<TEntity,TPreviousProperty>
     {
         public Dictionary<IIncludeQuery, string> PathMap { get; } = new Dictionary<IIncludeQuery, string>();
 

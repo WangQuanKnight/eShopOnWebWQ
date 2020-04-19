@@ -1,4 +1,5 @@
-﻿using Ardalis.GuardClauses;
+﻿using ApplicationCore.Interface;
+using Ardalis.GuardClauses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Text;
 
 namespace ApplicationCore.Entities.OrderAggregate
 {
-    public class Order
+    public class Order : BaseEntity, IAggregateRoot
     {
         public string BuyerId { get; private set; }
         public DateTimeOffset OrderDate { get; private set; } = DateTimeOffset.Now;
@@ -21,7 +22,7 @@ namespace ApplicationCore.Entities.OrderAggregate
 
         }
 
-        public Order(string buyerId,Address shipToAddress,List<OrderItem> items)
+        public Order(string buyerId, Address shipToAddress, List<OrderItem> items)
         {
             Guard.Against.NullOrEmpty(buyerId, nameof(buyerId));
             Guard.Against.Null(shipToAddress, nameof(shipToAddress));
@@ -35,7 +36,7 @@ namespace ApplicationCore.Entities.OrderAggregate
         public decimal Total()
         {
             var total = 0m;
-            foreach(var item in _orderItems)
+            foreach (var item in _orderItems)
             {
                 total += item.UnitPrice * item.Quantity;
             }

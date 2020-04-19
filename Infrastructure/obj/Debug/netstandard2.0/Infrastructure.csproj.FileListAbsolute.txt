@@ -1,0 +1,4 @@
+C:\Users\WQ\source\repos\eShopOnWebWQ\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\WQ\source\repos\eShopOnWebWQ\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\WQ\source\repos\eShopOnWebWQ\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\WQ\source\repos\eShopOnWebWQ\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs

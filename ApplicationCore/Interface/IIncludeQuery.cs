@@ -12,8 +12,8 @@ namespace ApplicationCore.Interface
         HashSet<string> Paths { get; }
     }
 
-    //public interface IIncludeQuery<TEntity, out TPreviousProperty> : IIncludeQuery
-    //{
+    public interface IIncludeQuery<TEntity, out TPreviousProperty> : IIncludeQuery
+    {
 
-    //}
+    }
 }
