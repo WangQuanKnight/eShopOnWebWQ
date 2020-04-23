@@ -27,7 +27,7 @@ namespace Web
         {
             services.AddDbContext<CatalogContext>(c =>
             {
-                c.UseSqlServer(Configuration.GetConnectionString("eShopOnWebWQ"));
+                c.UseSqlServer(Configuration.GetConnectionString("CatalogConnection"));
             });
             services.AddRazorPages();
         }
