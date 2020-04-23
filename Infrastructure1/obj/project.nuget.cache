@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yMiw7Q0EP2+5JRn2hDDLwrsNvHW1807szEm58YeLZwGbHt/X32DGqJZSV1gTu25+FlAYhNVqsWGejhSEngduWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\Infrastructure1\\Infrastructure1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WQ\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\web\\Web.csproj": {}
+    "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\Web\\Web.csproj": {}
   },
   "projects": {
     "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\ApplicationCore\\ApplicationCore.csproj": {
@@ -44,6 +44,10 @@
             "Ardalis.GuardClauses": {
               "target": "Package",
               "version": "[1.4.2, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -89,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -134,6 +138,14 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -178,18 +190,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\web\\Web.csproj": {
+    "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\web\\Web.csproj",
+        "projectPath": "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\WQ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\web\\obj\\",
+        "outputPath": "C:\\Users\\WQ\\source\\repos\\eShopOnWebWQ\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -226,6 +238,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -253,6 +273,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [
@@ -273,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
