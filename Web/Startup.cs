@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Infrastructure.Data;
+using Infrastructure.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +26,17 @@ namespace Web
             {
                 c.UseSqlServer(Configuration.GetConnectionString("CatalogConnection"));
             });
+
+            services.AddDbContext<AppIdentityDbContext>(c =>
+            {
+                c.UseSqlServer(Configuration.GetConnectionString("IdentityConnection"));
+            });
+
+            services.AddIdentity<ApplicationUser,IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders()
+                .AddDefaultUI();
+
             services.AddRazorPages();
         }
 
@@ -50,6 +58,8 @@ namespace Web
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
